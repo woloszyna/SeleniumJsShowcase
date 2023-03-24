@@ -9,6 +9,5 @@ const { Builder, By, Key, until } = require('selenium-webdriver');
         await driver.wait(until.titleIs('dummy - Google Search'), 1000);
     } finally {
         await driver.quit();
-        //a comment
     }
 })();
